@@ -1,0 +1,9 @@
+.swiper-button-next-main{
+    background-image: url("../../img/Arrow-main.svg")!important;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+    background-position: center!important;
+    /* left: 811px!important; */
+    width: 86px!important;
+    height: 86px!important;
+  }

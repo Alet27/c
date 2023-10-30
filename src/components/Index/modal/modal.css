@@ -1,0 +1,108 @@
+.modal{
+    background: rgba(12, 12, 14, 0.90);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999999;
+}
+.modal-content{
+    width: 677px;
+    position: relative;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(9, 9, 10, 0.15);
+    backdrop-filter: blur(30px);
+}
+.modal-close{
+    position: absolute;
+    top: 22px;
+    cursor: pointer;
+    right: 22px;
+}
+.modal-content-top-block{
+    width: 50%;
+    cursor: pointer;
+    color: rgba(248, 248, 248, 0.60);
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    padding-bottom: 7px;
+    border-bottom: 4px solid #3F3F45;
+    font-weight: 700;
+    line-height: normal;
+}
+.modal-content-top-block-active {
+    border-color: #1E1B33;
+    background: linear-gradient(90deg, #E01E5A -181.43%, #0500FA 273.8%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.modal-content-logo{
+    margin-bottom: 70px;
+}
+.modal-content-top{
+    display: flex;
+    width: 100%;
+    margin-bottom: 57px;
+}
+.modal-content-form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.modal-content-form input{
+    background: #1E1B33;
+    border: none;
+    height: 58px;
+    padding-left: 20px;
+    color: #C0C0C0;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px; /* 112.5% */
+    border-radius: 8px;
+}
+.modal-restore{
+    color: #6F6F6F;
+    text-align: right;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.modal-content-form button{
+    height: 44px;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #0500FA 7.09%, #E01E5A 92.23%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    margin-bottom: 15px;
+    font-weight: 500;
+    line-height: 20px; /* 125% */
+}
+.modal-content-form-bottom{
+    color: #B8B8B8;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.modal-content-form-bottom a{
+    color: #F8F8F8;
+    text-decoration-line: underline;
+}
